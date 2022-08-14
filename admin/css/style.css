@@ -1,0 +1,15 @@
+#userinfo{
+    margin-top: 150%;
+}
+#userinfo img{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.list-group-item-dark{
+    background: #212529;
+    color: aliceblue;
+}
+.list-group-item-dark img{
+    margin-right: 10px;
+}
