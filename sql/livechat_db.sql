@@ -41,7 +41,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`a_id`, `username`, `Admin_Name`, `password`, `status`, `last_login_time`) VALUES
-(1, 'sonuaction03@gmail.com', 'Saurabh Sapkal', '123', 'Active', '2021-11-16 22:46:53');
+(1, 'aa@gmail.com', 'Saurabh', '123', 'Active', '2021-11-16 22:46:53');
 
 -- --------------------------------------------------------
 
@@ -70,30 +70,6 @@ INSERT INTO `follow` (`f_id`, `u_email`, `f_email`) VALUES
 (80, 'dd@gmail.com', 'aa@gmail.com'),
 (81, 'dd@gmail.com', 'ii@gmail.com'),
 (82, 'dd@gmail.com', 'ee@gmail.com'),
-(83, 'ee@gmail.com', 'bb@gmail.com'),
-(84, 'ee@gmail.com', 'dd@gmail.com'),
-(85, 'ff@gmail.com', 'aa@gmail.com'),
-(86, 'ff@gmail.com', 'bb@gmail.com'),
-(87, 'ff@gmail.com', 'gg@gmail.com'),
-(88, 'gg@gmail.com', 'hh@gmail.com'),
-(89, 'gg@gmail.com', 'ii@gmail.com'),
-(90, 'gg@gmail.com', 'ff@gmail.com'),
-(91, 'gg@gmail.com', 'aa@gmail.com'),
-(92, 'hh@gmail.com', 'aa@gmail.com'),
-(93, 'hh@gmail.com', 'dd@gmail.com'),
-(94, 'hh@gmail.com', 'cc@gmail.com'),
-(95, 'ii@gmail.com', 'aa@gmail.com'),
-(96, 'ii@gmail.com', 'bb@gmail.com'),
-(97, 'ii@gmail.com', 'cc@gmail.com'),
-(98, 'jj@gmail.com', 'aa@gmail.com'),
-(99, 'jj@gmail.com', 'gg@gmail.com'),
-(100, 'jj@gmail.com', 'ff@gmail.com'),
-(101, 'aa@gmail.com', 'dd@gmail.com'),
-(102, 'aa@gmail.com', 'bb@gmail.com'),
-(103, 'aa@gmail.com', 'hh@gmail.com'),
-(104, 'cc@gmail.com', 'dd@gmail.com'),
-(105, 'cc@gmail.com', 'hh@gmail.com');
-
 -- --------------------------------------------------------
 
 --
@@ -118,7 +94,6 @@ CREATE TABLE `group` (
 INSERT INTO `group` (`id`, `g_name`, `gc_email`, `g_type`, `g_img`, `gc_name`, `group_members`, `group_DaTi`) VALUES
 (77, 'FYBCA 2021-22', 'cc@gmail.com', 'BCA Student Group', '1.png', 'Sayali', 'cc@gmail.com,dd@gmail.com,hh@gmail.com', '2021-11-19 04:44:43'),
 (78, 'SYBCA 2021-22', 'cc@gmail.com', 'BCA Student Group', '3.png', 'Sayali', 'cc@gmail.com,dd@gmail.com,hh@gmail.com', '2021-11-19 04:45:05'),
-(79, 'FYBCA 2021-22', 'aa@gmail.com', 'BCA Student Group', '3.png', 'Saurabh', 'aa@gmail.com,ee@gmail.com,ff@gmail.com,gg@gmail.com,ii@gmail.com,jj@gmail.com,bb@gmail.com', '2021-11-21 02:36:56'),
 (80, 'TYBCA 2021-22', 'cc@gmail.com', 'BCA Student Group', '4.png', 'Sayali', 'cc@gmail.com,dd@gmail.com,ee@gmail.com,ff@gmail.com,gg@gmail.com,hh@gmail.com,ii@gmail.com,jj@gmail.com,aa@gmail.com,bb@gmail.com', '2022-02-23 04:26:49');
 
 -- --------------------------------------------------------
@@ -149,21 +124,6 @@ INSERT INTO `msg` (`mid`, `uid`, `to_id`, `msg`, `m_status`, `c_time`, `type`, `
 (387, 'bb@gmail.com', 'cc@gmail.com', 'hi', 'seen', '04:37:50', 'Individual', '2021-12-03'),
 (388, 'bb@gmail.com', 'cc@gmail.com', ' hi', 'seen', '04:38:05', 'Individual', '2021-12-03'),
 (389, 'bb@gmail.com', 'cc@gmail.com', 'Good Morning', 'seen', '04:38:13', 'Individual', '2021-12-03'),
-(390, 'bb@gmail.com', '79', 'hi', 'seen', '04:38:44', 'Group', '2021-12-03'),
-(391, 'aa@gmail.com', 'cc@gmail.com', 'Hi', 'seen', '19:44:42', 'Individual', '2021-12-24'),
-(392, 'aa@gmail.com', 'hh@gmail.com', 'hii', 'seen', '05:13:37', 'Individual', '2022-02-18'),
-(393, 'aa@gmail.com', 'gg@gmail.com', 'Hii', 'seen', '06:23:57', 'Individual', '2022-02-18'),
-(394, 'aa@gmail.com', 'cc@gmail.com', 'Hii', 'seen', '06:26:46', 'Individual', '2022-02-18'),
-(395, 'aa@gmail.com', 'cc@gmail.com', 'Hii', 'seen', '06:26:50', 'Individual', '2022-02-18'),
-(396, 'aa@gmail.com', '79', 'Hi', 'seen', '06:27:31', 'Group', '2022-02-18'),
-(397, 'cc@gmail.com', 'dd@gmail.com', 'Hii', 'seen', '00:51:40', 'Individual', '2022-02-20'),
-(398, 'dd@gmail.com', 'cc@gmail.com', 'Hii', 'seen', '00:52:40', 'Individual', '2022-02-20'),
-(399, 'dd@gmail.com', 'cc@gmail.com', 'Good Morning', 'seen', '00:52:46', 'Individual', '2022-02-20'),
-(400, 'cc@gmail.com', 'dd@gmail.com', 'Good Morning', 'seen', '00:52:53', 'Individual', '2022-02-20'),
-(401, 'aa@gmail.com', 'dd@gmail.com', 'Hi', 'seen', '03:26:23', 'Individual', '2022-02-23'),
-(402, 'cc@gmail.com', '77', 'J', 'seen', '04:21:43', 'Group', '2022-02-23'),
-(403, 'cc@gmail.com', '77', 'Hi', 'seen', '04:21:45', 'Group', '2022-02-23'),
-(404, 'cc@gmail.com', '80', 'Hi', 'seen', '04:27:00', 'Group', '2022-02-23');
 
 -- --------------------------------------------------------
 
@@ -235,86 +195,3 @@ INSERT INTO `users` (`id`, `email`, `password`, `status`, `photo`, `about`, `use
 --
 -- Indexes for dumped tables
 --
-
---
--- Indexes for table `admin`
---
-ALTER TABLE `admin`
-  ADD PRIMARY KEY (`a_id`),
-  ADD UNIQUE KEY `username` (`username`,`password`);
-
---
--- Indexes for table `follow`
---
-ALTER TABLE `follow`
-  ADD PRIMARY KEY (`f_id`);
-
---
--- Indexes for table `group`
---
-ALTER TABLE `group`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `msg`
---
-ALTER TABLE `msg`
-  ADD PRIMARY KEY (`mid`);
-
---
--- Indexes for table `query_feedback`
---
-ALTER TABLE `query_feedback`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `users`
---
-ALTER TABLE `users`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `username` (`username`);
-
---
--- AUTO_INCREMENT for dumped tables
---
-
---
--- AUTO_INCREMENT for table `admin`
---
-ALTER TABLE `admin`
-  MODIFY `a_id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
-
---
--- AUTO_INCREMENT for table `follow`
---
-ALTER TABLE `follow`
-  MODIFY `f_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=106;
-
---
--- AUTO_INCREMENT for table `group`
---
-ALTER TABLE `group`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=81;
-
---
--- AUTO_INCREMENT for table `msg`
---
-ALTER TABLE `msg`
-  MODIFY `mid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=405;
-
---
--- AUTO_INCREMENT for table `query_feedback`
---
-ALTER TABLE `query_feedback`
-  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=40;
-
---
--- AUTO_INCREMENT for table `users`
---
-ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=67;
-COMMIT;
-
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
